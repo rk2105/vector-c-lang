@@ -11,7 +11,6 @@ int main()
 	char *ptr=str;
 	printf("Enter char to search in string ");
 	scanf("%c",&ch);
-	//char *ptr=str;
 	ptr=_mystrchr(ptr,ch);
 	if(ptr==NULL)
 	{
