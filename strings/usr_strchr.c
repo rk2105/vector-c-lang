@@ -6,7 +6,6 @@ int main()
 {
 	char str[20],ch;
 	printf("Enter the string ");
-	//gets(str);
 	scanf("%[^\n]s",str);
 	__fpurge(stdin);
 	char *ptr=str;
